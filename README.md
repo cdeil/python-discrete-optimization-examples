@@ -11,13 +11,14 @@ to install, easy to use, well maintained, have good documentation. At the
 moment, the evaluation here is super limited, we just tried to install each code
 and get one simple example to run.
 
-Unfortunately, it seems that the most performant packages in this domain, such
+*Unfortunately, it seems that the most performant packages in this domain, such
 as [Gurobi](https://www.gurobi.com/) or
 [CPLEX](https://www.ibm.com/analytics/cplex-optimizer) are proprietary and
 expensive (on the order of 10 kEUR per year per user or machine). We will not
 try those out here, since choosing an expensive product causes friction: how
 many licenses, how to optimise their usage among developers and test and
-production machines, at the start the question if the investment is warranted.
+production machines, convincing the company to buy it. If we were to buy a
+commercial package, using `gurobipy` seems to be a good choice.*
 
 See README files, Python scripts and notebooks in the sub-folders for each
 package.
@@ -29,7 +30,7 @@ package.
 ## Codes
 
 * [Google OR-Tools](https://developers.google.com/optimization) - see [ortools](ortools)
-* [Pyomo](http://www.pyomo.org/)
+* [Pyomo](http://www.pyomo.org/) - see [pyomo](pyomo)
 * [PuLP](https://coin-or.github.io/pulp/)
 * [JuMP](https://jump.dev/) (this one is Julia, not Python)
 * [NEOS Server](https://neos-server.org/)
@@ -45,3 +46,9 @@ and use this to install all codes:
 conda env create -f environment.yml
 conda activate python-discrete-optimization-examples
 ```
+
+## Other
+
+* https://norvig.com/sudoku.html
+* https://www.coursera.org/learn/discrete-optimization
+

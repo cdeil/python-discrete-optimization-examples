@@ -1,17 +1,24 @@
 # Google OR-Tools
 
-**Probably one of the most powerful and best options.**
+**Probably one of the most powerful and best options, besides Pyomo**
 
 * [Google OR-Tools](https://developers.google.com/optimization)
+* Open-sourced by Google in 2015
+* Last release v7.5 from Jan 2020
 * Written in C++, also supports Python, C#, Java
 * Supports Linux, MacOS, Windows
-* 2015: Open-sourced by Google
+* Solvers: A few built-in, can interface to other popular open-source and commercial ones
 * Easy pip install ([PyPI](https://pypi.org/project/ortools/))
 * Active [development on Github](https://github.com/google/or-tools)
 * Active [discussion forum](https://groups.google.com/forum/#!forum/or-tools-discuss)
-* Good documentation with examples.
-* 2018: Book from apress: [Practical Python AI Projects](https://www.apress.com/de/book/9781484234228)
+* Good high-level documentation with examples, API documentation not polished (auto wrapper code?)
+* Book from apress from 2018: [Practical Python AI Projects](https://www.apress.com/de/book/9781484234228) (not free)
 
 Negative points:
 * API is 1:1 translation of C++ API in all wrappers - low-level and not Pythonic
 * No conda-forge package yet (see [conda-forge issue](https://github.com/conda-forge/staged-recipes/issues/2717))
+
+## Sudoku
+
+* https://github.com/google/or-tools/blob/master/examples/python/sudoku_sat.py
+* https://gitlab.hce.heidelbergcement.com/jtherhaa/ortools_playground/blob/master/src/notebooks/sudoku_ortools.ipynb
