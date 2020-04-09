@@ -31,10 +31,10 @@ package.
 
 * [Google OR-Tools](https://developers.google.com/optimization) - see [ortools](ortools)
 * [Pyomo](http://www.pyomo.org/) - see [pyomo](pyomo)
-* [PuLP](https://coin-or.github.io/pulp/)
-* [JuMP](https://jump.dev/) (this one is Julia, not Python)
-* [NEOS Server](https://neos-server.org/)
 * [PySCIPOpt](https://github.com/SCIP-Interfaces/PySCIPOpt) interface to [SCIP](https://scip.zib.de/)
+* [JuMP](https://jump.dev/) (this one is Julia, not Python)
+* [PuLP](https://coin-or.github.io/pulp/)
+* [NEOS Server](https://neos-server.org/)
 * from scratch implementation in Python
 
 ## Execute

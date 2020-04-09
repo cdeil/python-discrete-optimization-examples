@@ -1,6 +1,6 @@
 # Google OR-Tools
 
-**Probably one of the most powerful and best options, besides Pyomo**
+## Infos
 
 * [Google OR-Tools](https://developers.google.com/optimization)
 * Open-sourced by Google in 2015
@@ -14,9 +14,26 @@
 * Good high-level documentation with examples, API documentation not polished (auto wrapper code?)
 * Book from apress from 2018: [Practical Python AI Projects](https://www.apress.com/de/book/9781484234228) (not free)
 
-Negative points:
+## Plus points
+
+* Probably one of the most powerful and best options, besides Pyomo
+
+## Minus points
+
 * API is 1:1 translation of C++ API in all wrappers - low-level and not Pythonic
 * No conda-forge package yet (see [conda-forge issue](https://github.com/conda-forge/staged-recipes/issues/2717))
+
+## Installation
+
+```
+pip install ortools
+```
+
+Test:
+
+```
+python -c "from ortools.linear_solver import pywraplp"
+```
 
 ## Sudoku
 
