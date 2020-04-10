@@ -30,4 +30,5 @@ pip install mip
 
 ## Examples
 
-https://python-mip.readthedocs.io/en/latest/examples.html
+* [mip_getting_started.py](mip_getting_started.py)
+* https://python-mip.readthedocs.io/en/latest/examples.html
