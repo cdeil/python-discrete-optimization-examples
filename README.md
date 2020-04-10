@@ -87,12 +87,17 @@ For the Julia and JuMP installation instrucations, see [jump](jump)
 
 ## References
 
-### Learn
+### Books
 
 * https://www.manning.com/books/classic-computer-science-problems-in-python
 * https://www.apress.com/de/book/9781484234228
+
+### Courses
+
 * https://www.coursera.org/learn/discrete-optimization
 * https://www.coursera.org/learn/basic-modeling
+* https://www.coursera.org/learn/julia-programming
+* https://www.edx.org/course/optimization-methods-for-business-analytics
 
 ### Sudoku
 

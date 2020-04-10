@@ -56,8 +56,20 @@ using Clp
 using Ipopt
 ```
 
+If you want to use Julia from Jupyter Lab:
 
-## Sudoku
+```
+$ julia
 
+import Pkg
+Pkg.add("JuMP")
+```
+
+and then start `jupyter lab` as usual, and select Julia from the launcher screen.
+
+## Examples
+
+* [jump_getting_started.ipynb](jump_getting_started.ipynb)
+* https://github.com/JuliaOpt/JuMPTutorials.jl
 * https://github.com/JuliaOpt/JuMP.jl/blob/master/examples/sudoku.jl
 * https://nbviewer.jupyter.org/github/JuliaOpt/JuMPTutorials.jl/blob/master/notebook/modelling/sudoku.ipynb
