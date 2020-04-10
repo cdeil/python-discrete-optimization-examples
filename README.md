@@ -27,10 +27,23 @@ package.
 * [Python-MIP](https://www.python-mip.com/) - see [mip](mip)
 * [CVXPY](https://www.cvxpy.org/) - see [cvxpy](cvxpy)
 
+Note that there's two things:
+* [algebraic modeling languages](https://en.wikipedia.org/wiki/Algebraic_modeling_language)
+* Solvers, see e.g.
+  [here](https://www.juliaopt.org/JuMP.jl/stable/installation/) or
+  [here](https://en.wikipedia.org/wiki/AMPL#Solvers) or
+  [here](https://github.com/joaojunior/awesome-operational_research#solvers).
+
+We're only looking at codes where the modeling language is a Python API.
+Sometimes the line is a bit blurry and a package has built-in solvers, but
+usually the solvers are separate.
+
+The list above is not extensive at all - just the best options we found so far.
+
 ## Commercial codes
 
 Unfortunately, it seems that the most performant packages in this domain, such
-as [Gurobi](https://www.gurobi.com/) or
+as [Gurobi](https://www.gurobi.com/), [SCIP](https://scip.zib.de/) or
 [CPLEX](https://www.ibm.com/analytics/cplex-optimizer) are proprietary and
 expensive (on the order of 10 kEUR per year per user or machine). We will not
 try those out here, since choosing an expensive product causes friction: how

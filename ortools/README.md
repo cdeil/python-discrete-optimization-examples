@@ -8,6 +8,7 @@
 * Written in C++, also supports Python, C#, Java
 * Supports Linux, MacOS, Windows
 * Solvers: A few built-in, can interface to other popular open-source and commercial ones
+* Google internally uses Gurobi and SCIP solvers, which have much better performance than the OSS MIP solvers.
 * Easy pip install ([PyPI](https://pypi.org/project/ortools/))
 * Active [development on Github](https://github.com/google/or-tools)
 * Active [discussion forum](https://groups.google.com/forum/#!forum/or-tools-discuss)
