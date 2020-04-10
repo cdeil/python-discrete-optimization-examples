@@ -9,6 +9,8 @@
 * Solvers: supports many open-source and commercial solvers, need to be installed separately
 * [2013 JuMP paper](https://arxiv.org/abs/1312.1431)
 * [2017 JuMP paper](https://mlubin.github.io/pdf/jump-sirev.pdf)
+* Examples: https://github.com/JuliaOpt/JuMP.jl/tree/master/examples
+* Tutorials: https://github.com/JuliaOpt/JuMPTutorials.jl
 
 ## Plus points
 
@@ -37,8 +39,9 @@ $ julia
 import Pkg
 Pkg.add("JuMP")
 Pkg.add("GLPK")
-Pkg.add("Ipopt")
 Pkg.add("Cbc")
+Pkg.add("Clp")
+Pkg.add("Ipopt")
 ```
 
 First-time import will trigger pre-compilation, also pretty fast:
@@ -48,12 +51,13 @@ $ julia
 
 using JuMP
 using GLPK
-using Ipopt
 using Cbc
+using Clp
+using Ipopt
 ```
 
 
 ## Sudoku
 
 * https://github.com/JuliaOpt/JuMP.jl/blob/master/examples/sudoku.jl
-* https://github.com/JuliaOpt/juliaopt-notebooks/blob/master/notebooks/JuMP-Sudoku.ipynb
+* https://nbviewer.jupyter.org/github/JuliaOpt/JuMPTutorials.jl/blob/master/notebook/modelling/sudoku.ipynb

@@ -24,7 +24,7 @@ package.
 * [Pyomo](http://www.pyomo.org/) - see [pyomo](pyomo)
 * [JuMP](https://jump.dev/) - see [jump](jump) (this one is Julia, not Python)
 * [PuLP](https://coin-or.github.io/pulp/) - see [pulp](pulp)
-* TBD: from scratch implementation in Python
+* [CVXPY](https://www.cvxpy.org/) - see [cvxpy](cvxpy)
 
 ## Commercial codes
 
@@ -47,15 +47,21 @@ There's also [NEOS Server](https://neos-server.org/) which could be used to try
 out different solvers, including the commercial ones, without purchasing a
 license, albeit only on test or open data.
 
-## Execute
+## Installation
 
 One way to install the codes is to install [Anaconda](https://www.anaconda.com/)
 and use this to install all codes:
 
 ```
-conda env create -f environment.yml
+conda create -n python-discrete-optimization-examples anaconda
 conda activate python-discrete-optimization-examples
+conda config --add channels conda-forge
+conda install pyomo pyomo.extras coincbc ipopt glpk
+conda install pulp
+pip install ortools
 ```
+
+For the Julia and JuMP installation instrucations, see [jump](jump)
 
 ## Other
 
