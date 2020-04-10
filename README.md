@@ -16,6 +16,7 @@ package.
 
 ## Examples
 
+* A `*_getting_started.py` for each package, with the front-page docs example, so that you can try it out quickly.
 * [Wikipedia Sudoku example](https://en.wikipedia.org/wiki/Sudoku)
 
 ## Open-source codes
@@ -74,6 +75,7 @@ conda install pyomo pyomo.extras coincbc ipopt glpk
 conda install pulp
 pip install ortools
 pip install mip
+pip install cvxpy
 ```
 
 The COIN and OR-Tools packaging is being improved, see e.g.

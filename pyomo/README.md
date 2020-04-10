@@ -36,6 +36,6 @@ conda config --add channels conda-forge
 conda install pyomo pyomo.extras coincbc ipopt glpk
 ```
 
-## Sudoku
+## Examples
 
 * https://github.com/Pyomo/pyomo/blob/master/examples/doc/pyomobook/scripts-ch/sudoku/sudoku.py

@@ -24,7 +24,7 @@ conda config --add channels conda-forge
 conda install pulp
 ```
 
-## Sudoku
+## Examples
 
 * https://www.coin-or.org/PuLP/CaseStudies/a_sudoku_problem.html
 * https://github.com/coin-or/pulp/blob/master/examples/Sudoku1.py

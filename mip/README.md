@@ -3,13 +3,14 @@
 ## Infos
 
 * https://www.python-mip.com/
-* Started Nov 2018 by two Brazilians
+* Started Nov 2018
 * Last release v1.7.0 from Feb 2020
 * Recently joined as COIN-OR project
 * Python and CFFI, supports Linux, MacOS, Windows
-* Solvers: none built-in, can interface to common ones
+* Solvers: Python wheel has CBC binaries built-in, can interface to extra common ones
 * Easy pip install
 * Active [development on Github](https://github.com/coin-or/python-mip)
+* Active [discussion forum](https://groups.google.com/forum/#!forum/python-mip)
 
 ## Plus points
 
@@ -20,8 +21,6 @@
 
 * Limited scope to MIP Python modeling language (no solver included, no other problems)
 * No conda-forge package
-* Website is too flashy - https://github.com/coin-or/python-mip/issues/80
-* Public forum not accessible - https://github.com/coin-or/python-mip/issues/81
 
 ## Installation
 
