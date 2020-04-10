@@ -62,7 +62,7 @@ If you want to use Julia from Jupyter Lab:
 $ julia
 
 import Pkg
-Pkg.add("JuMP")
+Pkg.add("IJulia")
 ```
 
 and then start `jupyter lab` as usual, and select Julia from the launcher screen.

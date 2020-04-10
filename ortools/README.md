@@ -39,6 +39,7 @@ python -c "from ortools.linear_solver import pywraplp"
 
 ## Examples
 
+* [ortools_getting_started.py](ortools_getting_started.py)
 * [sudoku_ortools.ipynb](sudoku_ortools.ipynb)
 * https://github.com/google/or-tools/blob/master/examples/python/sudoku_sat.py
 * https://gitlab.hce.heidelbergcement.com/jtherhaa/ortools_playground/blob/master/src/notebooks/sudoku_ortools.ipynb

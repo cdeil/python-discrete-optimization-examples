@@ -10,7 +10,7 @@ b = np.random.randn(m)
 
 # Construct the problem.
 x = cp.Variable(n)
-objective = cp.Minimize(cp.sum_squares(A*x - b))
+objective = cp.Minimize(cp.sum_squares(A * x - b))
 constraints = [0 <= x, x <= 1]
 prob = cp.Problem(objective, constraints)
 
