@@ -24,6 +24,7 @@ package.
 * [Pyomo](http://www.pyomo.org/) - see [pyomo](pyomo)
 * [JuMP](https://jump.dev/) - see [jump](jump) (this one is Julia, not Python)
 * [PuLP](https://coin-or.github.io/pulp/) - see [pulp](pulp)
+* [Python-MIP](https://www.python-mip.com/) - see [mip](mip)
 * [CVXPY](https://www.cvxpy.org/) - see [cvxpy](cvxpy)
 
 ## Commercial codes
@@ -59,14 +60,28 @@ conda config --add channels conda-forge
 conda install pyomo pyomo.extras coincbc ipopt glpk
 conda install pulp
 pip install ortools
+pip install mip
 ```
+
+The COIN and OR-Tools packaging is being improved, see e.g.
+[here](https://github.com/coin-or/COIN-OR-OptimizationSuite) and
+[here](https://github.com/conda-forge/staged-recipes/issues/2717). There's a
+COIN-OR
+[optimization-suite-docker](https://github.com/tkralphs/optimization-suite-docker),
+and we could also create our own docker image with all the codes we want to use.
 
 For the Julia and JuMP installation instrucations, see [jump](jump)
 
-## Other
+## References
 
-* https://norvig.com/sudoku.html
+### Learn
+
 * https://www.manning.com/books/classic-computer-science-problems-in-python
 * https://www.apress.com/de/book/9781484234228
 * https://www.coursera.org/learn/discrete-optimization
 * https://www.coursera.org/learn/basic-modeling
+
+### Sudoku
+
+* https://emerentius.github.io/sudoku_web/
+* https://norvig.com/sudoku.html
