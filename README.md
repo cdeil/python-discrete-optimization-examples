@@ -14,6 +14,8 @@ and get one simple example to run.
 See README files, Python scripts and notebooks in the sub-folders for each
 package.
 
+A nice introduction to some of these packages is [here](http://www.mathopt.org/Optima-Issues/optima103.pdf).
+
 ## Examples
 
 * A `*_getting_started.py` for each package, with the front-page docs example, so that you can try it out quickly.
