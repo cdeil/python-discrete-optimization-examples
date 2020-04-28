@@ -9,3 +9,4 @@ solver = SolverFactory("glpk")
 results = solver.solve(model)
 
 print(results)
+print(model.x.value)

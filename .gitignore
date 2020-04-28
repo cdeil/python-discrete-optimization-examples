@@ -131,3 +131,5 @@ dmypy.json
 default.profraw
 
 .idea
+Sudoku.lp
+sudokuout.txt
