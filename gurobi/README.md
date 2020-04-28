@@ -3,7 +3,6 @@
 ## Infos
 
 * https://www.gurobi.com/
-* 
 
 ## Plus points
 
@@ -96,7 +95,13 @@ z 1
 Obj: 3
 ```
 
+The [matrix1.py](matrix1.py) example is from
+[here](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_example_matrix1_py.html).
+It shows the matrix interface added to Gurobipy 9.0, see tutorial
+[here](https://www.gurobi.com/resource/gurobi-python-interface-matrix-friendly-modeling-techniques/).
+
 More working examples:
 
+* https://github.com/Gurobi/modeling-examples
 * https://www.gurobi.com/resource/functional-code-examples/
 * https://www.gurobi.com/resource/modeling-examples-using-the-gurobi-python-api-in-jupyter-notebook/
