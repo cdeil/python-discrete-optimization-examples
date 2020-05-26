@@ -13,6 +13,7 @@
 
 * Commercial license, cost and friction in dev process
 * Function signature and docstring information doesn't show argument defaults
+* Matrix interface (gurobipy.MVar) is immature (see comments below)
 
 ## Installation
 
@@ -61,47 +62,35 @@ Now the installation and license is set up, you can use gurobipy like any other 
 
 ## Example
 
-The [gurobi_getting_started.py](gurobi_getting_started.py) example is a slightly modified version of the example
-[here](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_example_mip1_py.html):
+### Python scripts
+
+You can run examples:
 
 ```
-% python gurobi/gurobi_getting_started.py
-Using license file /Users/cdeil/gurobi.lic
-Set parameter TokenServer to value Christophs-MacBook-Pro.local
-Gurobi Optimizer version 9.0.2 build v9.0.2rc0 (mac64)
-Optimize a model with 2 rows, 3 columns and 5 nonzeros
-Model fingerprint: 0xf43f5bdf
-Variable types: 0 continuous, 3 integer (3 binary)
-Coefficient statistics:
-  Matrix range     [1e+00, 3e+00]
-  Objective range  [1e+00, 2e+00]
-  Bounds range     [1e+00, 1e+00]
-  RHS range        [1e+00, 4e+00]
-Found heuristic solution: objective 2.0000000
-Presolve removed 2 rows and 3 columns
-Presolve time: 0.00s
-Presolve: All rows and columns removed
-
-Explored 0 nodes (0 simplex iterations) in 0.00 seconds
-Thread count was 1 (of 8 available processors)
-
-Solution count 2: 3 
-
-Optimal solution found (tolerance 1.00e-04)
-Best objective 3.000000000000e+00, best bound 3.000000000000e+00, gap 0.0000%
-x 1
-y 0
-z 1
-Obj: 3
+python examples_from_gurobi/matrix1.py
+python examples_from_gurobi/matrix1.py
 ```
 
-The [matrix1.py](matrix1.py) example is from
-[here](https://www.gurobi.com/documentation/9.0/quickstart_mac/py_example_matrix1_py.html).
-It shows the matrix interface added to Gurobipy 9.0, see tutorial
-[here](https://www.gurobi.com/resource/gurobi-python-interface-matrix-friendly-modeling-techniques/).
+The files in [examples_from_gurobi](examples_from_gurobi) are a copy of
+`anaconda3/pkgs/gurobi-9.0.2-py37_0/share/doc/gurobi/examples/python`.
+They don't seem to be available on Github, so I added them to this repo.
+They are described a bit here: https://www.gurobi.com/resource/functional-code-examples/
 
-More working examples:
+### Jupyter notebooks
+
+Gurobi also produced a nice set of gurobipy tutorials as Jupyter notebooks.
+In this case, they are available via a Github repo.
 
 * https://github.com/Gurobi/modeling-examples
-* https://www.gurobi.com/resource/functional-code-examples/
 * https://www.gurobi.com/resource/modeling-examples-using-the-gurobi-python-api-in-jupyter-notebook/
+
+## Matrix MVar
+
+Only examples from Gurobi:
+- [examples_from_gurobi/matrix1.py](examples_from_gurobi/matrix1.py)
+- [examples_from_gurobi/matrix2.py](examples_from_gurobi/matrix2.py)
+
+Best documentation and examples:
+
+* https://www.gurobi.com/wp-content/uploads/2020/04/gurobipy_matrixfriendly_webinar-slides.pdf
+
